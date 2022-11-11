@@ -1,0 +1,189 @@
+
+
+.header-1{
+    display: flex;
+    margin-top: 15px;
+    /* border: 1px solid; */
+    background-color: rgb(108, 150, 35);
+}
+.h1{
+    flex: 1;
+    margin-left: 10px;
+}
+.nav-1{
+    flex: 4;
+    /* border: 1px solid; */
+    padding-top: 10px;
+}
+.nav-1 li{
+    display: inline;
+    padding: 0 28px;
+}
+.nav-1 li a{
+    text-decoration: none;
+    color: white;
+}
+.btn-1{
+    flex: 1;
+    /* border: 1px solid; */
+    padding-top: 17px;
+}
+.btn-1 button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 50px;
+    background-color: blanchedalmond;
+}
+.btn-1 button:hover{
+    background-color: darkturquoise;
+}
+.srch{
+    flex: 1;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+.srch a{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header-2{
+    display: flex;
+    margin-top: 15px;
+    /* border: 1px solid; */
+    background-color: rgb(59, 55, 55);
+}
+.nav-2{
+    flex: 10;
+    /* border: 1px solid; */
+}
+.nav-2 li{
+    display: inline;
+    padding: 0 40px;
+}
+.nav-2 a{
+    color: aliceblue;
+    transition: 0.5s;
+}
+.nav-2 a:hover{
+    color: aqua;
+}
+.form-1{
+    flex: 1;  
+    padding-top: 12px;
+}
+.form-1 label{
+    color: aliceblue;
+}
+.results-main{
+    display: flex;
+    margin-top: 15px;
+    /* border: 1px solid; */
+}
+.results-main a{
+    color: grey;
+}
+.results-main h2{
+    flex: 5;
+    margin-left: 10px;
+    color: rgb(129, 165, 67);
+    font-weight: 600;
+}
+.results-main .result1{
+    flex: 5;
+}
+.results-main .result2{
+    flex: 5;
+}
+
+.results-main .result3{
+    flex: 5;
+}
+
+.results-main .result4{
+    flex: 5;
+}
+.nav-3{
+    display: flex;
+    margin-top: 15px;
+    /* border: 1px solid; */
+    background-color: darkgray;
+}
+.nav-3 h2{
+    flex: 20;
+    margin-left: 10px;
+    color: mediumvioletred;
+    text-shadow: 2px 2px 5px ;
+}
+.nav-3 nav{
+    flex: 80;
+    padding-top: 8px;
+}
+.nav-3 nav li{
+    display: inline;
+    padding: 0 40px;
+}
+.nav-3 nav li a{
+    color: black;
+    transition: 0.5s;
+}
+.nav-3 nav li a:hover{
+    color: crimson;
+}
+.flex{
+    display: flex;
+    /* border: 1px solid; */
+    margin-top: 15px;
+}
+.flex p{
+    color: dimgray;
+}
+.flex .sidebar{
+    flex: 20;
+}
+.sidebar .side-img a{
+    color: rgb(34, 32, 32);
+    margin-left: 40px;
+}
+.sidebar .side-img i{
+    color: white;
+}
+.flex .images-2{
+    flex: 60;
+}
+.images-2{
+    margin-left: 10px;
+}
+
+a:hover{
+    color: darkslategray;
+}
+
+footer{
+    border: 1px solid slategray;
+    border-radius: 10px;
+    background-color: slategray;
+    position: sticky;
+    bottom: 0;
+}
+footer .foot nav li{
+    display: inline;
+    padding: 0 87px;
+}
+footer .foot nav li a{
+    color: aqua;
+    transition: 0.5s;
+}
+footer .foot nav li a:hover{
+    color: rgb(235, 20, 20);
+}
+
